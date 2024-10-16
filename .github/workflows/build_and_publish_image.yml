@@ -1,9 +1,10 @@
 name: Publish Docker image
 
+# Если в push изменились файла в директории
 on:
-    push:
-    #   paths:
-    #     - './devcontainer/**'
+  push:
+    paths:
+      - .devcontainer/**
 
 jobs:
   push_to_registry:

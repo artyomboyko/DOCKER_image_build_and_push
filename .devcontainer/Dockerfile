@@ -1,5 +1,12 @@
 FROM ubuntu:24.04
 
-# RUN apt-get -y update && apt-get -y upgrade
+WORKDIR /tmp
+RUN apt-get -y update && apt-get -y upgrade
+RUN wget -v https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb
+
+RUN ls -la
+
+RUN RUN apt-get clean 
+RUN rm -rf /tmp/*
 
 CMD bash
