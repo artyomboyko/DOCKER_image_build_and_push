@@ -42,9 +42,8 @@ jobs:
         id: push
         uses: docker/build-push-action@v6
         with:
-          context: ./.devcontainer
+          context: ./TEST
           file: Dockerfile
-          tags: latest
           push: true
 
       - name: Generate artifact attestation
