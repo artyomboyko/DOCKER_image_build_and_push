@@ -45,3 +45,4 @@ jobs:
           context: .devcontainer
           file: Dockerfile
           push: true
+          tags: ${{ steps.meta.outputs.tags }}
