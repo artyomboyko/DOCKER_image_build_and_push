@@ -6,7 +6,7 @@ RUN wget -v https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/
 
 RUN ls -la
 
-# RUN apt-get clean 
-RUN rm -rf /tmp/*
+RUN apt-get clean 
+# RUN rm -rf /tmp/*
 
 CMD ["/bin/bash"]
