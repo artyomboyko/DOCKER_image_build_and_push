@@ -6,3 +6,4 @@
 - [GitHub Actions documentation](https://docs.github.com/en/actions)
 - [Действие по изменению состояния директории](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#onpushpull_requestpull_request_targetpathspaths-ignore)
 - [События, инициирующие рабочие процессы](https://docs.github.com/ru/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#watch)
+- [**Build and push Docker images***](https://github.com/marketplace/actions/build-and-push-docker-images)
